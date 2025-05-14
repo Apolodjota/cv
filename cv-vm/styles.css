@@ -1,0 +1,62 @@
+/* Estilo inicial tipo hoja */
+body.basic-theme {
+    font-family: Arial, sans-serif;
+    background-color: #fcebd5; /* tono piel */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Botón */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Oculto por defecto */
+.hidden {
+    display: none;
+}
+
+/* Estilo mejorado */
+body.enhanced-theme {
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #003c58;
+}
+
+.enhanced-theme .container {
+    background-color: #ffffff;
+    border: 2px solid #007acc;
+    border-radius: 10px;
+}
+
+.enhanced-theme h1 {
+    color: #005b96;
+}
+
+.enhanced-theme h2 {
+    color: #007acc;
+}
+
+.perfil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+    margin: 20px auto;
+}
